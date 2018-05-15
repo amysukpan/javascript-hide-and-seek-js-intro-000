@@ -19,7 +19,9 @@ function nestedTarget(){
   (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt) */
 
 function increaseRankBy(n){
-
+  const lis = document.getElementById('app').querySelector('ul.ranked-list li')
+  for (let i = 0; i < lis.length; i++) {
+    lis[i].innerHTML = (i + 1).toString()
 }
 
 /* Define a function `deepestChild()` that pulls out the most deeply nested child
