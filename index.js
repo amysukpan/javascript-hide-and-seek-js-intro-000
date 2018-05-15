@@ -31,6 +31,6 @@ function increaseRankBy(n){
   implement correctly, but not beyond your ability!)
   */
 function deepestChild(){
-  l = document.getElementById('grand-node').getElementsByTagName('div').lastChild
+  const l = document.getElementById('grand-node').getElementsByTagName('div').lastChild
   return l.textContent
   }
