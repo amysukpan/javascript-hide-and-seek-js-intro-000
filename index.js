@@ -9,8 +9,8 @@ function getFirstSelector(selector){
   (https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_Started/Selectors), right? :) ).
   (Note that in `index.html` `#nested` and `.target` just _happen_ to be `div`s.
   This method should work with arbitrary elements.)*/
-function nestedTarget(selector){
-  return document.getElementById('nested').querySelectorAll(selector)
+function nestedTarget(){
+  return document.getElementById('nested').querySelectorAll('target')
 
 }
 
