@@ -28,5 +28,5 @@ function increaseRankBy(n){
   implement correctly, but not beyond your ability!)
   */
 function deepestChild(){
-  
+
 }
