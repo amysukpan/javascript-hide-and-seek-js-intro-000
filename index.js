@@ -19,7 +19,7 @@ function nestedTarget(){
   (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt) */
 
 function increaseRankBy(n){
-  const lis = document.getElementById('app').querySelector('ul.ranked-list li')
+  const lis = document.getElementById('app').querySelectoraAll('ul.ranked-list li')
   for (let i = 0; i < lis.length; i++) {
     lis[i].innerHTML = parseInt(lis[i].innerHTML) + n
   }
