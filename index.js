@@ -21,7 +21,7 @@ function nestedTarget(){
 function increaseRankBy(n){
   const lis = document.getElementById('app').querySelector('ul.ranked-list li')
   for (let i = 0; i < lis.length; i++) {
-    lis[i].innerHTML = (i + 1).toString()
+    lis[i].innerHTML = parseInt(lis[i].innerHTML) + n
 }
 
 /* Define a function `deepestChild()` that pulls out the most deeply nested child
