@@ -10,7 +10,7 @@ function getFirstSelector(selector){
   This method should work with arbitrary elements.)*/
 function nestedTarget(selector){
   const lis = document.querySelectorAll(selector)
-  
+
 }
 
 /* Define a function `increaseRankBy(n)` that increases the ranks in all of the
@@ -18,7 +18,7 @@ function nestedTarget(selector){
   (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt) */
 
 function increaseRankBy(n){
-  
+
 }
 
 /* Define a function `deepestChild()` that pulls out the most deeply nested child
