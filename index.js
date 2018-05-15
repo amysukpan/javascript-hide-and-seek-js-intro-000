@@ -10,7 +10,7 @@ function getFirstSelector(selector){
   (Note that in `index.html` `#nested` and `.target` just _happen_ to be `div`s.
   This method should work with arbitrary elements.)*/
 function nestedTarget(){
-  return document.getElementById('nested').querySelectorAll('target')
+  return document.getElementById('nested').querySelectorAll('target div')
 
 }
 
